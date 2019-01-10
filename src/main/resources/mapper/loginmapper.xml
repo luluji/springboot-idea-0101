@@ -10,6 +10,6 @@
 	    from
 	    	login
 	    where
-	    	loginname = #{loginname,jdbcType=VARCHAR}
+	    	loginname = #{loginname,jdbcType=VARCHAR} and loginpassword=#{loginpassword,jdbcType=VARCHAR}
 	</select>
 </mapper>
